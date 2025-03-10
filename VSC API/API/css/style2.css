@@ -1,0 +1,56 @@
+/* Define o estilo geral do corpo da página */
+body {
+    background-color: black; /* Fundo preto */
+    color: white; /* Texto branco */
+    font-family: Arial, sans-serif; /* Define a fonte do texto */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estiliza o cabeçalho (header) */
+header {
+    background-color: gray; /* Fundo cinza */
+    padding: 20px; /* Adiciona espaço interno */
+    font-size: 24px; /* Aumenta o tamanho da fonte */
+    font-weight: bold; /* Deixa o texto em negrito */
+}
+
+/* Estiliza o campo de entrada (input) */
+input {
+    padding: 10px; /* Adiciona espaçamento interno */
+    font-size: 18px; /* Define o tamanho do texto */
+    margin-top: 20px; /* Adiciona espaço acima do input */
+}
+
+/* Estiliza o botão */
+button {
+    padding: 10px 20px; /* Define o tamanho do botão */
+    font-size: 18px; /* Define o tamanho do texto do botão */
+    margin-left: 10px; /* Adiciona um espaço à esquerda */
+    background-color: red; /* Cor de fundo vermelha */
+    color: white; /* Texto branco */
+    border: none; /* Remove a borda padrão */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+/* Altera a cor do botão quando o usuário passa o mouse */
+button:hover {
+    background-color: darkred; /* Muda para vermelho mais escuro */
+}
+
+/* Estiliza a área onde os heróis serão exibidos */
+#resultado {
+    margin-top: 20px; /* Adiciona espaço acima */
+    display: flex; /* Usa o modelo flexbox para organizar os itens */
+    flex-wrap: wrap; /* Permite que os itens quebrem linha se necessário */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+}
+
+/* Estiliza cada herói mostrado na tela */
+.heroi {
+    background-color: #222; /* Fundo escuro para os cards dos heróis */
+    padding: 15px; /* Adiciona espaçamento interno */
+    margin: 10px; /* Adiciona espaço entre os cards */
+    border-radius: 8px; /* Arredonda as bordas dos cards */
+    width: 200px; /* Define a largura fixa de cada card */
+    text-align: center; /* Centraliza o texto dentro do card */
+}
